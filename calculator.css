@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(242, 235, 227);
+}
+
+.home{
+    background-color:white;
+    border: solid black;
+    height: 50px;
+    width: 75px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.btn input{
+    background-color: rgb(233, 233, 238);
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+    font-size: 45px;
+    border-radius: 10px;
+}
+.btn input.eq{
+    background-color: rgb(196, 108, 102);
+    color: bisque;
+}
+.btn input:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
